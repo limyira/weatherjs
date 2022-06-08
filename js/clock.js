@@ -9,5 +9,5 @@ function timeSet() {
     nowTime.innerText = `${hour} :  ${minute} : ${second}`;
     
 }
-
+timeSet();
 setInterval(timeSet, 1000)
